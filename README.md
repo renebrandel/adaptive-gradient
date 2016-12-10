@@ -13,7 +13,7 @@ console.log(gradient('#b71c1c'));
 ```
 
 Output:
-```json
+```js
 {
   start: 'BA1C1C',
   end: 'C7437A',
