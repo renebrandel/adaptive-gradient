@@ -1,4 +1,4 @@
-# adaptive-gradient
+# adaptive-gradient [![npm version](https://badge.fury.io/js/adaptive-gradient.svg)](https://badge.fury.io/js/adaptive-gradient)
 A super simple JS library that suggests you a background gradient with font-color shading suggestion.
 
 Installation:
