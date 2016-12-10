@@ -1,7 +1,7 @@
 var convert = require('color-convert');
 
-module.exports = function(hex) {
-
+module.exports = {
+  default: function(hex) {
     var hsl = convert.hex.hsl(hex);
     var h = (hsl[0] - 25 + 360) % 360;
     var s = Math.min(Math.max(hsl[1] - 20, 50), 100);
@@ -15,4 +15,5 @@ module.exports = function(hex) {
       end: convert.hsl.hex([h, s, l]),
       fontShouldBeLight: brightness < 128
     };
+  }
 };

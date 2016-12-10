@@ -1,6 +1,6 @@
 {
   "name": "adaptive-gradient",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JS library to auto-suggest nice looking gradients and recommendation on font-color",
   "main": "index.js",
   "scripts": {
