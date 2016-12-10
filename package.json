@@ -1,0 +1,14 @@
+{
+  "name": "adaptive-gradient",
+  "version": "1.0.0",
+  "description": "A JS library to auto-suggest nice looking gradients and recommendation on font-color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rene Brandel",
+  "license": "MIT",
+  "dependencies": {
+    "color-convert": "^1.8.2"
+  }
+}
