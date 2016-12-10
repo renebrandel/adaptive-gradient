@@ -9,7 +9,7 @@ npm install -S adaptive-gradient
 Javascript:
 ```js
 var gradient = require('adaptive-gradient');
-console.log(gradient('#b71c1c'));
+console.log(gradient('#ba1c1c'));
 ```
 
 Output:
