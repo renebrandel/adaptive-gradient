@@ -1,4 +1,10 @@
+'use strict';
+
 var convert = require('color-convert');
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
 exports.default = function(hex) {
   var hsl = convert.hex.hsl(hex);
