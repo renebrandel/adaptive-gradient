@@ -1,7 +1,6 @@
 var convert = require('color-convert');
 
-module.exports = {
-  getGradient: function(hex) {
+module.exports = function(hex) {
 
     var hsl = convert.hex.hsl(hex);
     var h = (hsl[0] - 25 + 360) % 360;
@@ -16,5 +15,4 @@ module.exports = {
       end: convert.hsl.hex([h, s, l]),
       fontShouldBeLight: brightness < 128
     };
-  }
 };
